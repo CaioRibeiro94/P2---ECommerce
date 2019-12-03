@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jogos Brasil </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <section class="banner">
+
+    </section>
+    <header class="menu">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">PS4</a></li>
+                <li><a href="#">PC</a></li>
+                <li><a href="#">XBOX</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contato</button></a>
+    </header>
+    <div class="models">
+        <div class="jogo-item">
+            <a href="">
+                <div class="jogo-item--img"><img src="" /></div>
+                <div class="jogo-item--add">+</div>
+            </a>
+            <div class="jogo-item--price">R$ --</div>
+            <div class="jogo-item--name">--</div>
+            <div class="jogo-item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <h1>jogos</h1>
+        <div class="jogo-area"></div>
+        <section>
+                <footer>
+                    <div class="footer-main-div">
+                        <div class="footer-social-icons">
+                            <ul>
+                                <li><a href="#" target="blank"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" target="blank"><i class="fab fa-google-plus"></i></a></li>
+                                <li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+    </main>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas jogos</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto (-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem pag">
+                    <span>Forma de Pagamento</span>
+                    <select>
+                        <option>Boleto</option> 
+                        <option>PayPal</option>
+                        <option>Cartao Debito</option>
+                    </select>
+                </div>
+                <div class="cart--totalite frete">
+                    <span>Calcular Frete</span>
+                    <input name="CEP" class="cep" required pattern="\d{5}-\d{3}"/><div class="btn">Calcular</div>
+                    
+                </div>
+                <a href="">
+                <div class="cart--finalizar" onclick="teste()">Finalizar a compra</div>
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <div class="jogoWindowArea">
+        <div class="jogoWindowBody">
+            <div class="jogoInfo--cancelMobileButton">Voltar</div>
+            <div class="jogoBig">
+                <img src="" />
+            </div>
+            <div class="jogoInfo">
+                <h1>--</h1>
+                <div class="jogoInfo--desc">--</div>
+                <div class="jogoInfo--sizearea">
+                    <div class="jogoInfo--sector">Tamanho</div>
+                    <div class="jogoInfo--sizes">
+                        <div data-key="0" class="jogoInfo--size">NOVATO <span>--</span></div>
+                        <div data-key="1" class="jogoInfo--size">MEDIUM <span>--</span></div>
+                        <div data-key="2" class="jogoInfo--size selected">BOSS <span>--</span></div>
+                    </div>
+                </div>
+                <div class="jogoInfo--pricearea">
+                    <div class="jogoInfo--sector">Preço</div>
+                    <div class="jogoInfo--price">
+                        <div class="jogoInfo--actualPrice">R$ --</div>
+                        <div class="jogoInfo--qtarea">
+                            <button class="jogoInfo--qtmenos">-</button>
+                            <div class="jogoInfo--qt">1</div>
+                            <button class="jogoInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="jogoInfo--addButton">Adicionar ao carrinho</div>
+                <div class="jogoInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="jogos.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://kit.fontawesome.com/aa8443ccd2.js"></script>
+</body>
+
+</html>
